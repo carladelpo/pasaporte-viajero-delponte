@@ -1,0 +1,63 @@
+.bg-nav {
+  background-color: #ce72a0;
+  border-radius: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  display: inline-block;
+  text-align: center;
+  color: inherit;
+  font-size: 14px;
+}
+
+.logo {
+  width: 100px;
+  transition: all 1s;
+}
+.logo:hover {
+  transform: scale(2);
+}
+
+footer {
+  background-color: #ee8ec7;
+  border-top: inset 2px black;
+  font-size: 14px;
+  letter-spacing: 4px;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+}
+
+.contacto {
+  text-decoration: none;
+  color: inherit;
+}
+
+.instagram {
+  width: 25px;
+}
+
+.facebook {
+  width: 25px;
+}
+
+.titulo {
+  color: #d65696;
+  font-family: "Rampart One", cursive;
+  transition: all 2s;
+}
+.titulo:hover {
+  transform: translate(300px);
+}
+
+.foto-portada {
+  width: 60%;
+  border-radius: 20px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.parrafo-1 {
+  font-size: 15px;
+  margin-top: 60px;
+}
+
+/*# sourceMappingURL=style.css.map */

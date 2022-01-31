@@ -1,0 +1,26 @@
+
+@import "../base/variables";
+
+.titulo {
+    color: $titulo-color;
+    font-family:'Rampart One', cursive;
+    transition: all 2s;
+
+    &:hover {
+        transform: translate(300px);
+    }
+
+} 
+
+.foto-portada {
+    width: $foto-width;
+    border-radius: $border-foto;
+    margin-top:$foto-margintop;
+    margin-bottom: $foto-martinbottom;
+    
+}
+
+.parrafo-1 {
+    font-size: $font-parrafo;
+    margin-top: $margintop-parrafo;
+}

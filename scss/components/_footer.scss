@@ -1,12 +1,13 @@
-
- footer {
-    background-color:$footer-color; 
+@import "../base/listas";
+footer {
+    background-color: nth($list:$colores, $n:2);
     border-top:inset 2px black ;
     font-size: $font; 
     letter-spacing: 4px;   
     width: 100%;
-    height: 100%;
+    height: 15%;
     align-items: center;
+    padding-top: 1em;
  }
 
  .contacto {    

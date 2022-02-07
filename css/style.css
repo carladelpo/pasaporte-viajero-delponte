@@ -17,13 +17,14 @@
 }
 
 footer {
-  background-color: #ee8ec7;
+  background-color: #d65696;
   border-top: inset 2px black;
   font-size: 14px;
   letter-spacing: 4px;
   width: 100%;
-  height: 100%;
+  height: 15%;
   align-items: center;
+  padding-top: 1em;
 }
 
 .contacto {
@@ -40,7 +41,7 @@ footer {
 }
 
 .titulo {
-  color: #d65696;
+  color: #ce72a0;
   font-family: "Rampart One", cursive;
   transition: all 2s;
 }

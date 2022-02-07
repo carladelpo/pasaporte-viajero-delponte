@@ -2,7 +2,7 @@
 @import "../base/variables";
 
 .titulo {
-    color: $titulo-color;
+    color: nth($list: $colores, $n:1 );
     font-family:'Rampart One', cursive;
     transition: all 2s;
 
@@ -16,7 +16,7 @@
     width: $foto-width;
     border-radius: $border-foto;
     margin-top:$foto-margintop;
-    margin-bottom: $foto-martinbottom;
+    margin-bottom: $foto-marginbottom;
     
 }
 

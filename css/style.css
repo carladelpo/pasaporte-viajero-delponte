@@ -46,7 +46,7 @@ footer {
   transition: all 2s;
 }
 .titulo:hover {
-  transform: translate(300px);
+  translate: 300px;
 }
 
 .foto-portada {
@@ -59,6 +59,91 @@ footer {
 .parrafo-1 {
   font-size: 15px;
   margin-top: 60px;
+}
+
+.titulo2 {
+  font-size: 50px;
+  font-family: "Sacramento", cursive;
+}
+
+.titulo3 {
+  font-size: 30px;
+  font-family: "Just Me Again Down Here", cursive;
+  text-transform: uppercase;
+  margin-left: 10px;
+}
+
+.contenido {
+  font-size: 14px;
+  letter-spacing: 6px;
+  line-height: 1.4;
+  margin-left: 10px;
+  margin-bottom: 20px;
+  padding-top: 70px;
+  padding-right: 100px;
+  padding-bottom: 20px;
+}
+
+.table {
+  margin-bottom: 90px;
+  width: 50%;
+  transition: all 2s;
+}
+.table:hover {
+  translate: 300px;
+}
+
+.th-color {
+  background-color: #807d7d;
+}
+
+.td-color {
+  background-color: #a792c0;
+}
+
+.td-verde {
+  background-color: #74b890;
+}
+
+.td-colores {
+  background-color: #d8d38a;
+}
+
+.td-colors {
+  background-color: #6bb3b3;
+}
+
+.container-contacto {
+  width: 60%;
+}
+
+.titulo-contacto {
+  font-family: "Sacramento", cursive;
+  text-align: center;
+}
+
+.btn {
+  font-size: 12px;
+}
+
+.fotos-lugares {
+  width: 90%;
+  border-radius: 20px;
+}
+
+.foto-w {
+  width: 40%;
+  border-radius: 20px;
+}
+
+.fotos-z {
+  width: 100%;
+  border-radius: 20px;
+}
+
+.fotos-f {
+  width: 60%;
+  border-radius: 20px;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -3,13 +3,12 @@
 
 .titulo {
     color: nth($list: $colores, $n:1 );
-    font-family:'Rampart One', cursive;
+    font-family: $font-titulo;
     transition: all 2s;
-
-    &:hover {
-        transform: translate(300px);
-    }
-
+    &:hover{
+        translate: 300px;
+    } 
+   
 } 
 
 .foto-portada {

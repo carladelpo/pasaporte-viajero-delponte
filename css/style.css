@@ -10,10 +10,10 @@
 
 .logo {
   width: 100px;
-  transition: all 1s;
 }
 .logo:hover {
   transform: scale(2);
+  transition: all 1s;
 }
 
 footer {
@@ -90,6 +90,7 @@ footer {
 
 .table {
   margin-bottom: 90px;
+  padding-top: 70px;
   width: 50%;
   transition: all 2s;
 }

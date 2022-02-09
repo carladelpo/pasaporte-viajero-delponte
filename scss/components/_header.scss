@@ -15,10 +15,9 @@
 
 .logo { 
     width: 100px;
-    transition: all 1s;
     &:hover {
         transform: scale(2);
-        
+        transition: all 1s;
     }
 }
 

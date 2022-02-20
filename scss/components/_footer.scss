@@ -1,0 +1,50 @@
+@import "../base/listas";
+.footer {
+    background-color: nth($list:$colores, $n:2);
+    letter-spacing: 4px;
+    line-height: 10px;
+    padding-top: 10px; 
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.contenedora {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+    .redes {
+    display: flex;  
+    width: 20%;
+    justify-content: center;
+    margin-right: 100px;
+
+}
+
+    .contacto {     
+    text-decoration: none;
+    color: inherit;
+    font-size: 0.8em;
+    
+}
+
+    .parrafo2 {  
+        font-size: 0.8em;
+        display: flex;
+        flex-wrap: wrap;
+   
+} 
+
+    .instagram {   
+        width: 50%;
+        
+
+}
+
+    .facebook1 {  
+    width: 50%;
+    
+} 

@@ -1,0 +1,35 @@
+.div-fecha {
+    padding-top: 70px;
+}
+
+.table {
+    margin-bottom: 90px;
+    padding-top: 70px;
+    width: 50%;
+    transition: all 2s;
+   &:hover {
+    translate: 300px;
+   }
+} 
+
+   .th-color {
+       background-color: nth($list: $colores, $n:7 );
+   }
+
+   .td-color {
+       background-color: nth($list: $colores, $n:3 );
+   }
+
+   .td-verde {
+       background-color: nth($list: $colores, $n:4 );
+   }
+
+   .td-colores {
+       background-color: nth($list: $colores, $n:5 );
+   }
+
+   .td-colors {
+       background-color: nth($list: $colores, $n:6 );
+   }
+
+   

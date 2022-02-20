@@ -1,0 +1,25 @@
+
+@import "../base/variables";
+
+.titulo {
+    color: nth($list: $colores, $n:1 );
+    font-family: $font-titulo;
+    transition: all 2s;
+    &:hover{
+        translate: 300px;
+    } 
+   
+} 
+
+.foto-portada {
+    width: $foto-width;
+    border-radius: $border-foto;
+    margin-top:$foto-margintop;
+    margin-bottom: $foto-marginbottom;
+    
+}
+
+.parrafo-1 {
+    font-size: $font-parrafo;
+    margin-top: $margintop-parrafo;
+}

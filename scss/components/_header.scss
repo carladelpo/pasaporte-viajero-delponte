@@ -1,0 +1,23 @@
+@import "../base/listas";
+
+.bg-nav {
+    background-color: nth($list: $colores, $n:1 );
+    border-radius: $border-header;
+    font-family: $bg-font;
+    display: inline-block;
+    text-align: center;
+    color: inherit;
+    font-size: $font-encabezado; 
+   
+}
+
+ 
+
+.logo { 
+    width: 100px;
+}
+
+
+
+
+

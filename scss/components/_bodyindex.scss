@@ -4,10 +4,11 @@
 .titulo {
     color: nth($list: $colores, $n:1 );
     font-family: $font-titulo;
-    transition: all 2s;
-    &:hover{
-        translate: 300px;
-    } 
+    display: flex;
+    justify-content: center;
+    transform: rotate(360deg);
+
+
    
 } 
 
@@ -22,4 +23,8 @@
 .parrafo-1 {
     font-size: $font-parrafo;
     margin-top: $margintop-parrafo;
+}
+
+body {
+    background-color: nth($list:$colores , $n:8) ;
 }

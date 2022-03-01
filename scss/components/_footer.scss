@@ -1,50 +1,62 @@
 @import "../base/listas";
 .footer {
     background-color: nth($list:$colores, $n:2);
-    letter-spacing: 4px;
-    line-height: 10px;
-    padding-top: 10px; 
+    letter-spacing: 0.25em;
+    line-height: 0.625em;
+    padding-top: 0.625em; 
     display: flex;
     width: 100%;
-    justify-content: space-between;
     align-items: center;
     
 }
 
 .contenedora {
     display: flex;
-    flex-wrap: wrap;
+    justify-content: space-between;
+
 }
 
     .redes {
     display: flex;  
-    width: 20%;
-    justify-content: center;
-    margin-right: 100px;
-
+    width: 50%;
+    justify-content: flex-start;
+    
 }
 
-    .contacto {     
-    text-decoration: none;
-    color: inherit;
-    font-size: 0.8em;
+.w-100 {
+    width: 100%;
+}
+
+.w-50 {
+    width: 50%;
+}
+
+    .contacto {  
+        font-size: 1em;   
+        text-decoration: none;
+        color: inherit;
+        margin-left: 8px;
+    
+   
     
 }
 
     .parrafo2 {  
-        font-size: 0.8em;
+        font-size: 0.875em;
         display: flex;
         flex-wrap: wrap;
+        margin-left: 0.625em;
+       
+    
    
 } 
 
     .instagram {   
         width: 50%;
-        
-
+        margin-left: 0.625em;
+       
 }
 
-    .facebook1 {  
-    width: 50%;
-    
+    .facebook {  
+    width: 50%;   
 } 

@@ -1,96 +1,129 @@
 .bg-nav {
   background-color: #ce72a0;
-  border-radius: 10px;
+  border-radius: 0.625em;
   font-family: Arial, Helvetica, sans-serif;
   display: inline-block;
   text-align: center;
   color: inherit;
-  font-size: 14px;
+  font-size: 0.875em;
 }
 
 .logo {
-  width: 100px;
-}
-.logo:hover {
-  transform: scale(2);
-  transition: all 1s;
+  width: 6.25em;
 }
 
-footer {
+header {
+  background-color: white;
+}
+
+.footer {
   background-color: #d65696;
-  border-top: inset 2px black;
-  font-size: 14px;
-  letter-spacing: 4px;
+  letter-spacing: 0.25em;
+  line-height: 0.625em;
+  padding-top: 0.625em;
+  display: flex;
   width: 100%;
-  height: 15%;
   align-items: center;
-  padding-top: 1em;
+}
+
+.contenedora {
+  display: flex;
+  justify-content: space-between;
+}
+
+.redes {
+  display: flex;
+  width: 50%;
+  justify-content: flex-start;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.w-50 {
+  width: 50%;
 }
 
 .contacto {
+  font-size: 1em;
   text-decoration: none;
   color: inherit;
+  margin-left: 8px;
+}
+
+.parrafo2 {
+  font-size: 0.875em;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 0.625em;
 }
 
 .instagram {
-  width: 25px;
+  width: 50%;
+  margin-left: 0.625em;
 }
 
 .facebook {
-  width: 25px;
+  width: 50%;
 }
 
 .titulo {
   color: #ce72a0;
   font-family: "Rampart One", cursive;
-  transition: all 2s;
-}
-.titulo:hover {
-  translate: 300px;
+  display: flex;
+  justify-content: center;
+  transform: rotate(360deg);
 }
 
 .foto-portada {
-  width: 60%;
-  border-radius: 20px;
-  margin-top: 40px;
-  margin-bottom: 20px;
+  width: 70%;
+  border-radius: 3.125em;
+  margin-top: 2.5em;
+  margin-bottom: 1.25em;
 }
 
 .parrafo-1 {
-  font-size: 15px;
-  margin-top: 60px;
+  font-size: 0.938em;
+  margin-top: 3.75em;
+}
+
+body {
+  background-color: #d0cdd4;
 }
 
 .titulo2 {
-  font-size: 50px;
+  font-size: 3.125em;
   font-family: "Sacramento", cursive;
 }
 
 .titulo3 {
-  font-size: 30px;
+  font-size: 1.875em;
   font-family: "Just Me Again Down Here", cursive;
   text-transform: uppercase;
-  margin-left: 10px;
+  margin-left: 0.625em;
 }
 
 .contenido {
-  font-size: 14px;
-  letter-spacing: 6px;
+  font-size: 0.875em;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  letter-spacing: 0.375em;
   line-height: 1.4;
-  margin-left: 10px;
-  margin-bottom: 20px;
-  padding-top: 70px;
-  padding-right: 100px;
-  padding-bottom: 20px;
+  margin-left: 0.625em;
+  margin-bottom: 1.25em;
+  padding-top: 4.375em;
+  padding-right: 6.25em;
+  padding-bottom: 1.25em;
 }
 
 .div-fecha {
-  padding-top: 70px;
+  padding-top: 4.375em;
 }
 
 .table {
-  margin-bottom: 90px;
-  padding-top: 70px;
+  margin-bottom: 5.625em;
+  padding-top: 3.125em;
+  margin-left: 4.75em;
   width: 50%;
   transition: all 2s;
 }
@@ -128,29 +161,31 @@ footer {
 }
 
 .btn {
-  font-size: 12px;
+  font-size: 0.75em;
+}
+
+.formulario {
+  margin-left: 150px;
 }
 
 .fotos-lugares {
   width: 90%;
-  border-radius: 20px;
+  border-radius: 1.25em;
 }
 
 .foto-w {
   width: 40%;
-  border-radius: 20px;
+  border-radius: 1.25em;
 }
 
 .fotos-z {
   width: 100%;
-  border-radius: 20px;
+  border-radius: 1.25em;
 }
 
 .fotos-f {
   width: 60%;
-  border-radius: 20px;
+  border-radius: 1.25em;
 }
-
-
 
 /*# sourceMappingURL=style.css.map */

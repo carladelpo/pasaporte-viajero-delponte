@@ -1,6 +1,7 @@
 .titulo2 {
     font-size: 3.125em;
     font-family: $font-titulo2;
+  
 }
 
 .titulo3 {
@@ -8,28 +9,64 @@
     font-family: $font-titulo3;
     text-transform: uppercase;
     margin-left: 0.625em;
-
-    
-    
+        -webkit-transition: color 1s linear;
+        transition: color 1s linear;
+      }
+      .titulo3:hover{
+        color: rgb(236, 15, 70);
+  
     
 }
 
 
 
 .fotos-lugares {
-    @extend %fotos-lugares;
-}
+    @extend %fotos-lugares; 
+        -webkit-transition: 2s linear;
+        transition: 2s linear;
+        
+      }
+      .fotos-lugares:hover{
+        -webkit-box-shadow: 10px 10px 14px 2px rgba(0,0,0,0.47);
+        box-shadow: 10px 10px 14px 2px rgba(0,0,0,0.47);
+      }
+   
+    
 
 .foto-w {
     @extend %foto-w;
+    -webkit-transition: 2s linear;
+    transition: 2s linear;
+    
+  }
+  .foto-w:hover{
+    -webkit-box-shadow: 10px 10px 14px 2px rgba(0,0,0,0.47);
+    box-shadow: 10px 10px 14px 2px rgba(0,0,0,0.47);
+    
 }
 
 .fotos-z {
    @extend %fotos-z;
+   -webkit-transition: 2s linear;
+   transition: 2s linear;
+   
+ }
+ .fotos-z:hover{
+   -webkit-box-shadow: 10px 10px 14px 2px rgba(0,0,0,0.47);
+   box-shadow: 10px 10px 14px 2px rgba(0,0,0,0.47);
+   
 }
 
 .fotos-f {
     @extend %fotos-f;
+    -webkit-transition: 2s linear;
+    transition: 2s linear;
+    
+  }
+  .fotos-f:hover{
+    -webkit-box-shadow: 10px 10px 14px 2px rgba(0,0,0,0.47);
+    box-shadow: 10px 10px 14px 2px rgba(0,0,0,0.47);
+    
 }
 
 .contenido {

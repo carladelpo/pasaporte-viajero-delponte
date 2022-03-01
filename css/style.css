@@ -73,7 +73,13 @@ header {
   font-family: "Rampart One", cursive;
   display: flex;
   justify-content: center;
-  transform: rotate(360deg);
+  -webkit-transition: 1s linear;
+  transition: 1s linear;
+}
+
+.titulo:hover {
+  -webkit-transform: skew(10deg);
+  transform: skew(10deg);
 }
 
 .foto-portada {
@@ -81,6 +87,13 @@ header {
   border-radius: 3.125em;
   margin-top: 2.5em;
   margin-bottom: 1.25em;
+  -webkit-transition: 1s linear;
+  transition: 1s linear;
+}
+
+.foto-portada:hover {
+  -webkit-transform: scale(0.5);
+  transform: scale(0.5);
 }
 
 .parrafo-1 {
@@ -102,6 +115,52 @@ body {
   font-family: "Just Me Again Down Here", cursive;
   text-transform: uppercase;
   margin-left: 0.625em;
+  -webkit-transition: color 1s linear;
+  transition: color 1s linear;
+}
+
+.titulo3:hover {
+  color: #ec0f46;
+}
+
+.fotos-lugares {
+  -webkit-transition: 2s linear;
+  transition: 2s linear;
+}
+
+.fotos-lugares:hover {
+  -webkit-box-shadow: 10px 10px 14px 2px rgba(0, 0, 0, 0.47);
+  box-shadow: 10px 10px 14px 2px rgba(0, 0, 0, 0.47);
+}
+
+.foto-w {
+  -webkit-transition: 2s linear;
+  transition: 2s linear;
+}
+
+.foto-w:hover {
+  -webkit-box-shadow: 10px 10px 14px 2px rgba(0, 0, 0, 0.47);
+  box-shadow: 10px 10px 14px 2px rgba(0, 0, 0, 0.47);
+}
+
+.fotos-z {
+  -webkit-transition: 2s linear;
+  transition: 2s linear;
+}
+
+.fotos-z:hover {
+  -webkit-box-shadow: 10px 10px 14px 2px rgba(0, 0, 0, 0.47);
+  box-shadow: 10px 10px 14px 2px rgba(0, 0, 0, 0.47);
+}
+
+.fotos-f {
+  -webkit-transition: 2s linear;
+  transition: 2s linear;
+}
+
+.fotos-f:hover {
+  -webkit-box-shadow: 10px 10px 14px 2px rgba(0, 0, 0, 0.47);
+  box-shadow: 10px 10px 14px 2px rgba(0, 0, 0, 0.47);
 }
 
 .contenido {

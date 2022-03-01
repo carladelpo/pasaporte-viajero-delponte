@@ -6,7 +6,12 @@
     font-family: $font-titulo;
     display: flex;
     justify-content: center;
-    transform: rotate(360deg);
+    -webkit-transition: 1s linear;
+    transition: 1s linear;
+  }
+  .titulo:hover{
+    -webkit-transform: skew(10deg);
+    transform: skew(10deg);
 
 
    
@@ -17,6 +22,12 @@
     border-radius: $border-foto;
     margin-top:$foto-margintop;
     margin-bottom: $foto-marginbottom;
+    -webkit-transition: 1s linear;
+    transition: 1s linear;
+  }
+  .foto-portada:hover{
+    -webkit-transform: scale(.5);
+    transform: scale(.5);
     
 }
 
